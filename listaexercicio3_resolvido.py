@@ -29,7 +29,7 @@ st.header("Lista de Exercícios 3")
 import pandas as pd
 
 arquivo = "projetos.csv"
-df = pd.read_csv("arquivo", sep=";")
+df = pd.read_csv("Customizable", sep=";")
 df.head(len(df))
 st.dataframe(df.head(len(df)))
 
