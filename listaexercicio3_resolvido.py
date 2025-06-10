@@ -47,7 +47,7 @@ obs: a partir deste ponto, utilize a df atualizada, agora com 24 meses de dados
 
 df1 = pd.DataFrame({'mes': [12], 'ano': [2026], 'Projeto1': [29376], 'Projeto2': [40392], 'Projeto3': [63648], 'Projeto4': [29376], 'Projeto5': [25704] })
 df = pd.concat([df, df1])
-st.dataframe(df.head(len(df))
+st.dataframe(df))
 
 """3) Apresente a soma dos valores de cada projeto agrupado por ano. (Peso: 1,0)"""
 
