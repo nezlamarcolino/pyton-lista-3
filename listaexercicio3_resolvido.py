@@ -20,10 +20,10 @@ Os dados do arquivo `projetos.csv` se referem aos valores futuros previstos para
 
 import streamlit as st
 
-page_title="Lista de Exercícios 3",
+st.set_page_config(
+    page_title="Título da página",
     page_icon="👋",
 )
-
 st.header("Lista de Exercícios 3")
 
 import pandas as pd
